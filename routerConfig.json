@@ -1,0 +1,25 @@
+{
+    "baseUrl": ["/demo1"],
+    "methods": ["GET"],
+    "params": {
+    },
+    "plugins": {
+        "cache": {
+            "enable": false
+        },
+        "db": {
+            "enable": false
+        },
+        "jobQueue": {
+            "enable": false,
+            "queues": []
+        },
+        "messageChannel": {
+            "enable": false,
+            "channels": []
+        },
+        "wallet": {
+            "enable": false
+        }
+    }
+}
